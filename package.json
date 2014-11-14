@@ -1,0 +1,30 @@
+{
+  "name": "gossip",
+  "version": "0.0.0",
+  "description": "benchmark for sending and receiving messages over web sockets.",
+  "main": "orator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "TYPE=server node index.js",
+    "server": "node orator.js",
+    "listen": "node patron.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anandkumarpatel/gossip.git"
+  },
+  "keywords": [
+    "socket",
+    "benchmark"
+  ],
+  "author": "anandkumarpatel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anandkumarpatel/gossip/issues"
+  },
+  "homepage": "https://github.com/anandkumarpatel/gossip",
+  "dependencies": {
+    "primus": "^2.4.10",
+    "ws": "^0.4.32"
+  }
+}
